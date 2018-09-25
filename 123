@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>TKU60</title>
+    <meta charset="utf-8">
+    <style>
+        #container {
+            width: 930px;
+            height: 480px;
+            border: 1px solid purple;
+            background-color: antiquewhite;
+        }
+        
+        #player {
+            width: 630px;
+            height: 100%;
+            background-color: #f5eaea;
+            float: left;
+        }
+        
+        #aside {
+            width: 300px;
+            height: 100%;
+            background-color: #8e8ede;
+            float: right;
+        }
+        #TKUitem{
+            padding-top: 15px;
+            background-color: aqua;
+            cursor: pointer;
+        }
+        .pic {
+            width: 100px;
+            height: 70px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="player">
+            <iframe width="630" height="100%" src="https://www.youtube.com/embed/RechrtUxfQc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div>
+            <div id="aside">
+                <table id="TKUitem">
+                    <tr>
+                        <td>1
+                            <td/>
+                            <td>
+                                <img src="image/TKU1.png" class="pic" />
+                            </td>
+                            <td>淡江大戲《那些淡江教我們的事》part1</td>
+                    </tr>
+                    <tr>
+                        <td>2
+                            <td/>
+                            <td><img src="image/TKU2.png" class="pic" /></td>
+                            <td>淡江大戲《那些淡江教我們的事》part2</td>
+                            <tr/>
+                            <tr>
+                                <td>3
+                                    <td/>
+                                    <td><img src="image/TKU3.png" class="pic" /></td>
+                                    <td>淡江大戲《那些淡江教我們的事》part3</td>
+                                    <tr/>
+                                    <tr>
+                                        <td>4
+                                            <td/>
+                                            <td><img src="image/TKU4.png" class="pic" /></td>
+                                            <td>淡江大戲《那些淡江教我們的事》part4</td>
+                                            <tr/>
+                                            <tr>
+                                                <td>5
+                                                    <td/>
+                                                    <td><img src="image/TKU5.png" class="pic" /></td>
+                                                <td>淡江大戲《那些淡江教我們的事》part5</td>
+                                                        <tr/>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
